@@ -74,7 +74,6 @@ const Contact = ({ setSelectedPage }: Props) => {
             }}
           >
             <form
-              target="_blank"
               onSubmit={onSubmit}
               action="https://formsubmit.co/green.kz.info@gmail.com"
               method="POST"

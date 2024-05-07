@@ -85,7 +85,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
           transition={{ delay: 1 }}
         >
           {/* CLOSE ICON */}
-          <div className="flex justify-end p-8">
+          <div className="flex justify-end p-8 pt-28">
             <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
               <FaXmark className="h-6 w-6 text-gray-400" />
             </button>
