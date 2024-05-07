@@ -1,0 +1,15 @@
+import React from "react";
+
+type Props = {
+  children: React.ReactNode;
+};
+
+const PText = ({ children }: Props) => {
+  return (
+    <h1 className="w-full mt-3 mx-auto font-montserrat text-3xl font-bold">
+      {children}
+    </h1>
+  );
+};
+
+export default PText;
