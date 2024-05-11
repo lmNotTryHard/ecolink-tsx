@@ -34,7 +34,7 @@ const Contact = ({ setSelectedPage }: Props) => {
           loading="lazy"
         />
       </motion.div>
-      <div className="h-1/2 w-full bg-green-800" />
+      <div className="h-1/2 w-full bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-lime-500 to-green-800" />
       <motion.div className="absolute md:top-[45%] top-[15%] z-20 left-0 right-0 mx-auto xs:w-full sm:w-4/6 md:w-4/6 h-fit bg-white rounded-lg p-10 flex max-md:flex-col justify-between">
         <motion.div
           className="h-fit text-neutral-800 py-8"

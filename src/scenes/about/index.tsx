@@ -26,11 +26,11 @@ const About = ({ setSelectedPage }: Props) => {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            <motion.div className="pt-36 text-neutral-800">
+            <motion.div className="pt-28 text-neutral-800">
               <HText>
                 Что такое EcoLink<span></span>
               </HText>
-              <div className="pt-20 text-neutral-500 text-[17px] max-w-sm">
+              <div className="pt-10 text-neutral-500 text-[17px] max-w-sm">
                 <div>
                   EcoLink предлагает интегрированное решение, связывая сектор
                   общепита и сельское хозяйство через систему переработки

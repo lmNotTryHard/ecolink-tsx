@@ -31,14 +31,14 @@ const Steps: Array<StepType> = [
     title: "Сбор и транспортировка",
     bgShape: Shape2,
     description:
-      "занимается регулярным сбором биомусора от партнеров и его транспортировкой до пунктов на сельхозпредприятиях.",
+      "занимается регулярным сбором биомусора от партнеров его транспортировкой и дальнейшей переработки в готовые биологически чистые продукты в виде кормов и удобрения",
   },
   {
     icon: <PiFarmFill className="h-16 w-16 text-white" />,
     title: "Использование в сельском хозяйстве",
     bgShape: Shape3,
     description:
-      "Полученные компост и корма используются для улучшения почвы и кормления животных на сельскохозяйственных участках.",
+      "Полученные корма и удобрения используются для улучшения почвы тем самым увеличения урожая и кормления животных чистым и полезным кормом на сельскохозяйственных участках.",
   },
 ];
 
@@ -55,7 +55,10 @@ type Props = {
 
 const Home = ({ setSelectedPage }: Props) => {
   return (
-    <section id="home" className="bg-green-700 gap-16 bg-gray-20 py-10 pb-0">
+    <section
+      id="home"
+      className="bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-lime-500 to-green-800 gap-16 bg-gray-20 py-10 pb-0"
+    >
       {/* MAIN */}
 
       <div className="relative w-full h-screen">
